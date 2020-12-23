@@ -11,23 +11,24 @@
 </head>
 
 <body>
-   <center><h1>Переводчик с картинки и распознавание текста с картинки.</h1></center> 
-<center> <h2>Сделано Андреем Горбоконем в 2020 году.</h2></center> 
+  
     <div class="perevod">
          <div id="google_translate_element"></div>
 </div>
 <header>
     <script src="java_script.js"></script>
 </header>
-
-
+<h3>1. Выберите фото</h3>
+<input type="file" id="file" />
+<h3>2. Какой язык текста на фото?</h3>
     <select id="langs">
         <option value="rus" selected> <h3>Русский</h3></option>
         <option value="eng"> <h3>English</h3></option>
         <option value="ukr"> <h3>Українська</h3></option>
     </select>
-
-    <input type="file" id="file" />
+    <h3>3. Нажмите на кнопку ниже.</h3>
+<button type="button" id="start"><h3>Начать </h3></button>
+    
     <br>
     <br>
     <br>
@@ -37,8 +38,10 @@
     <br>
     <br>
 
-    <button type="button" id="start"><h3>Начать</h3></button>
+    
     <button><h3><a href="./hm.html">Инструкция</a></h3></button>
+    <center><h1>Переводчик с картинки и распознавание текста с картинки.</h1></center> 
+    <center> <h2>Сделано Андреем Горбоконем в 2020 году.</h2></center> 
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/2.1.1/tesseract.min.js'></script>
     <script src="script.js"></script>
