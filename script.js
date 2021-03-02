@@ -36,3 +36,8 @@ document.getElementById('start').addEventListener('click', () => {
   recognize(file, lang, updateProgress).
   then(setResult);
 });
+
+
+UpUp.start({
+  'content-url': 'offline.html' // покажет эту страницу пользователям не в сети
+});
